@@ -1,0 +1,11 @@
+{
+	"clientId": "Id of your discord application client goes here",
+	"guildId": "Id of the guild you want to use the application on goes here",
+	"token": "Enter your unique application token here, never share this token with anyone",
+	"unitDB": "https://unitdb.faforever.com/",
+	"wiki": "https://wiki.faforever.com/",
+	"api": "https://api.faforever.com/",
+	"data": "https://api.faforever.com/data/",
+	"auth": "olympus.slm.faforever.com",
+	"rss": "http://direct.faforever.com/feed/"
+}

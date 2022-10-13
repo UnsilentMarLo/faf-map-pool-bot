@@ -1,0 +1,3 @@
+C:\Users\plays\source\repos\Map Pool Bot\Map Pool Bot\obj\Debug\Map Pool Bot.njsproj.AssemblyReference.cache
+C:\Users\plays\source\repos\Map Pool Bot\Map Pool Bot\obj\Debug\Map Pool Bot.njsproj.CoreCompileInputs.cache
+C:\Users\plays\source\repos\Map Pool Bot\Map Pool Bot\bin\Microsoft.NodejsTools.WebRole.dll
