@@ -33,11 +33,15 @@ module.exports = {
 
 	async execute(interaction) {
 		const PoolSelection = interaction.options.getString('pool');
+		const today = new Date()
 		var MapName = interaction.options.getString('name');
-		var MapNameAndPool = `${MapName}${PoolSelection}`
+		const month = today.getMonth()     // 10 (Month is 0-based, so 10 means 11th Month)
+		const year = today.getFullYear()   // 2020
+		var MapNameAndPool = `${MapName}${PoolSelection}${month}${year}`
 		const MapDescription = interaction.options.getString('description');
 		const channel = interaction.client.channels.cache.get('1029446191190126652');
 		const threadAuthor = interaction.user.tag;
+		
 		var fail = false;
 
 		const Embed = new EmbedBuilder()
