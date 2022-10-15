@@ -1,6 +1,6 @@
 const { DataTypes, Model } = require('sequelize');
 
-module.exports = class Submission extends Model {
+module.exports = class PoolSubmission extends Model {
     static init(sequelize) {
         return super.init({
             name: {
@@ -8,7 +8,6 @@ module.exports = class Submission extends Model {
                 unique: true,
             },
             authorId: { type: DataTypes.STRING },
-            mapname: { type: DataTypes.STRING },
             channelId: { type: DataTypes.STRING },
             guildId: { type: DataTypes.STRING },
             SubmissiondId: { type: DataTypes.STRING },
@@ -20,7 +19,7 @@ module.exports = class Submission extends Model {
             result: { type: DataTypes.STRING }
         },
         {
-            tableName: 'Submission',
+            tableName: 'PoolSubmission',
             timestamps: true,
             sequelize
         });

@@ -87,6 +87,7 @@ module.exports = {
 			await Submission.create({
 				name: MapNameAndPool,
 				authorId: threadAuthor,
+				mapname: MapName,
 				channelId: `Submission: ${MapName} ${PoolSelection} pool`,
 				guildId: interaction.guildId,
 				SubmissiondId: 'undefined',
@@ -102,7 +103,7 @@ module.exports = {
 			}
 
 			console.log(`Error: ${error}`);
-	return interaction.reply({ content: 'Something went wrong.', ephemeral: true });
+			return interaction.reply({ content: 'Something went wrong.', ephemeral: true });
 		}
 
 		// this is the main message

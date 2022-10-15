@@ -1,3 +1,6 @@
 C:\Users\plays\source\repos\Map Pool Bot\Map Pool Bot\obj\Release\Map Pool Bot.njsproj.CoreCompileInputs.cache
 C:\Users\plays\source\repos\Map Pool Bot\Map Pool Bot\bin\Microsoft.NodejsTools.WebRole.dll
 C:\Users\plays\source\repos\Map Pool Bot\Map Pool Bot\obj\Release\Map Pool Bot.njsproj.AssemblyReference.cache
+C:\Users\plays\source\repos\UnsilentMarLo\faf-map-pool-bot\Map Pool Bot\obj\Release\Map Pool Bot.njsproj.AssemblyReference.cache
+C:\Users\plays\source\repos\UnsilentMarLo\faf-map-pool-bot\Map Pool Bot\obj\Release\Map Pool Bot.njsproj.CoreCompileInputs.cache
+C:\Users\plays\source\repos\UnsilentMarLo\faf-map-pool-bot\Map Pool Bot\bin\Microsoft.NodejsTools.WebRole.dll

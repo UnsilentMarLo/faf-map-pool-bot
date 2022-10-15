@@ -8,7 +8,7 @@ module.exports = class Pool extends Model {
                 unique: true,
             },
             guildId: { type: DataTypes.STRING },
-            Submissions: { type: DataTypes.ARRAY(DataTypes.STRING) },
+            ThreadId: { type: DataTypes.STRING },
             approvedby: { type: DataTypes.INTEGER },
             rejectedby: { type: DataTypes.INTEGER },
             result: { type: DataTypes.STRING }
