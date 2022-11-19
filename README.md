@@ -25,6 +25,10 @@ Create a config.json file based on the example-config.json:
 - `add guild id`
 - `edit channel ids inside the command files`
 
+### local
 - run `node deploy-commands.js`
+
+### docker
+- run `docker run -d --env volP=/vol/database.sqlite --mount type=volume,src=db-vol,target=/vol  map-pool-bot:latest`
 
 to run the bot simply run `node index.js`
