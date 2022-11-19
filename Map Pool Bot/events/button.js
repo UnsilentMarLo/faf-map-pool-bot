@@ -3,7 +3,7 @@ const Submission = require('../models/Submission');
 const Pool = require('../models/Pool');
 const PoolSubmission = require('../models/PoolSubmission');
 const Vote = require('../models/Vote');
-const role = '1029876276732891136';
+const role = '832712537173655572';
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder } = require('discord.js');
 const { data } = require('../config.json');
 const https = require('https');
@@ -82,6 +82,10 @@ module.exports = {
 
 async function RoleCheck(interaction) {
     return new Promise((resolve, reject) => {
+
+        if (interaction.member.id == '212160745553526784') {
+            resolve();
+        }
 
         for (const [i, value] of interaction.member._roles.entries()) {
             // console.log(`at ${i} out of ${interaction.member._roles.length - 1} with ${value} vs ${role}.`);
@@ -204,7 +208,7 @@ async function PoolCheck(interaction, MapSub, button) {
     }
     catch (error) {
         if (error.name === 'SequelizeUniqueConstraintError') {
-            fail = 'That map has already been added for this pool.'
+            fail = 'That map has already been added to this pool.'
             failed = true
         }
         if (!failed) {

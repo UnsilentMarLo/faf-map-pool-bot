@@ -39,7 +39,7 @@ module.exports = {
 		const year = today.getFullYear()   // 2020
 		var MapNameAndPool = `${MapName}${PoolSelection}${month}${year}`
 		const MapDescription = interaction.options.getString('description');
-		const channel = interaction.client.channels.cache.get('1029446191190126652');
+		const channel = interaction.client.channels.cache.get('1041375460174602360');
 		const threadAuthor = interaction.user.tag;
 		
 		var fail = false;

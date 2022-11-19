@@ -34,7 +34,7 @@ module.exports = {
 		const month = today.getMonth()     // 10 (Month is 0-based, so 10 means 11th Month)
 		const year = today.getFullYear()   // 2020
 		var MapNameAndPool = `${MapName}${PoolSelection}${month}${year}`
-		const channel = interaction.client.channels.cache.get('1029446191190126652');
+		const channel = interaction.client.channels.cache.get('1041375460174602360');
 		const threadAuthor = interaction.user.tag;
 		const MapSub = await Submission.findOne({ where: { name: MapNameAndPool } });
 
